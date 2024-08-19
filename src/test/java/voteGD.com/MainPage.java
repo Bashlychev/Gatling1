@@ -1,14 +1,11 @@
 package voteGD.com;
-import java.time.Duration;
 import java.util.*;
 
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
-import io.gatling.javaapi.jdbc.*;
 
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
-import static io.gatling.javaapi.jdbc.JdbcDsl.*;
 
 public class MainPage extends Simulation {
 
@@ -87,7 +84,7 @@ public class MainPage extends Simulation {
     
     String uri4 = "https://mc.yandex.ru";
 
-    ScenarioBuilder scn = scenario("MainPage")
+    ScenarioBuilder scn = scenario("opmoscow.Y2024.MainPage")
       .exec(
         http("request_0")
           .get("/")
