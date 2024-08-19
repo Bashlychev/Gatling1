@@ -18,17 +18,18 @@ public class CombinedSimulation extends Simulation {
         String message= "MessageTest";
         String captcha = "unpvoaj";
 
-        int users_flood_MP1 = Integer.getInteger("users_flood_MP", 0);
-        int users_flood_MAC2 = Integer.getInteger("users_flood_MAC", 1);
-        int users_flood_RCM3 = Integer.getInteger("users_flood_RCM", 0);
-        int users_flood_MgdAC4 = Integer.getInteger("users_flood_MgdAC", 0);
-        int users_flood_MgdIU5 = Integer.getInteger("users_flood_MgdIU", 0);
-        int users_flood_NA6 = Integer.getInteger("users_flood_NA", 0);
-        int users_flood_RN1142_7 = Integer.getInteger("users_flood_RN1142", 0);
-        int users_flood_SWQ8 = Integer.getInteger("users_flood_SWQ", 0);
+        int users_flood_MP1 = Integer.getInteger("users_flood_MP", 0); // it works
+        int users_flood_MAC2 = Integer.getInteger("users_flood_MAC", 0); // KO = 100%
+        int users_flood_RCM3 = Integer.getInteger("users_flood_RCM", 0); // KO = 100%
+        int users_flood_MgdAC4 = Integer.getInteger("users_flood_MgdAC", 0); // KO = 100%
+        int users_flood_MgdIU5 = Integer.getInteger("users_flood_MgdIU", 0); // KO = 100%
+        int users_flood_NA6 = Integer.getInteger("users_flood_NA", 1); // KO = 100%
+        int users_flood_RN1142_7 = Integer.getInteger("users_flood_RN1142", 0); // KO = 100%
+        int users_flood_SWQ8 = Integer.getInteger("users_flood_SWQ", 0); // KO = 100% > Check validator resolution crashed: j.l.RuntimeException: Resource searchwithqueryab/0000_response.html not found
+
 //        int users_flood_Message9 = Integer.getInteger("users_flood_Message", 0);
-        int users_flood_TY10 = Integer.getInteger("users_flood_TY", 0);
-        int users_flood_Sub11 = Integer.getInteger("users_flood_Sub", 0);
+        int users_flood_TY10 = Integer.getInteger("users_flood_TY", 0); // it works
+        int users_flood_Sub11 = Integer.getInteger("users_flood_Sub", 0); // it works
 
 
 

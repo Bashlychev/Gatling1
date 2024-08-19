@@ -1,4 +1,4 @@
-package voteGD.com;
+package Simulations;
 import java.time.Duration;
 import java.util.*;
 
@@ -13,6 +13,10 @@ import static io.gatling.javaapi.jdbc.JdbcDsl.*;
 public class RandomCandidateMarsel extends Simulation {
 
   {
+
+    int users_flood_RCM3 = Integer.getInteger("users_flood_RCM", 0);
+
+
     HttpProtocolBuilder httpProtocol = http
       .baseUrl("https://votegd.com")
       .inferHtmlResources()
