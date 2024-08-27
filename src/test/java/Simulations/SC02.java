@@ -110,7 +110,7 @@ String uri2 = "https://shtab.opmoscow.ru";
 
 String uri3 = "https://yastatic.net";
 
-ScenarioBuilder scnUC20 = scenario("News1")
+ScenarioBuilder scnUC20 = scenario("Projects.asafov.News1")
         .exec(
                 http("request_0")
                         .post("/webvisor/89667203?wv-part=1&wv-check=10431&wv-type=0&wmode=0&wv-hit=302056641&page-url=https%3A%2F%2Fshtab.opmoscow.ru%2Fnews%2Fview%2Ftestovoe-golosovanie-v-moskve-proshlo-v-shtatnom-rezhime&rn=699405502&browser-info=we%3A1%3Aet%3A1724422053%3Aw%3A1905x927%3Av%3A1410%3Az%3A300%3Ai%3A20240823190732%3Au%3A1724415537121602245%3Avf%3Acstsejpczyib8nf716ce02r1en%3Ast%3A1724422053&t=gdpr(14)ti(1)")
@@ -277,7 +277,7 @@ String uri1 = "https://mc.yandex.ru";
 
 //String uri3 = "https://yastatic.net";
 
-ScenarioBuilder scnUC21 = scenario("News2")
+ScenarioBuilder scnUC21 = scenario("Projects.asafov.News2")
     .exec(
             http("request_0")
                     .get("/build/5758.f38a32ed.css")
@@ -409,7 +409,7 @@ String UC22_uri1 = "https://mc.yandex.ru/metrika";
 
 //String uri3 = "https://yastatic.net";
 
-ScenarioBuilder scnUC22 = scenario("News3")
+ScenarioBuilder scnUC22 = scenario("Projects.asafov.News3")
     .exec(
             http("request_0")
                     .get("/build/5758.f38a32ed.css")

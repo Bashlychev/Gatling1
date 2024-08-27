@@ -109,7 +109,7 @@ public class CombinedSimulation extends Simulation {
 //
 //        String uri4 = "https://mc.yandex.ru";
 
-        ScenarioBuilder scnMP1 = scenario("opmoscow.Y2024.MainPage")
+        ScenarioBuilder scnMP1 = scenario("opmoscow.Y2024.Projects.asafov.Projects.voteGD.com.MainPage")
                 .exec(
                         http("request_0")
                                 .get("/")
@@ -212,7 +212,7 @@ public class CombinedSimulation extends Simulation {
 
         String uri5 = "https://mc.yandex.ru";
 
-        ScenarioBuilder scnMAC2 = scenario("MunicipalAllCandidates")
+        ScenarioBuilder scnMAC2 = scenario("Projects.voteGD.com.MunicipalAllCandidates")
                 .exec(
                         http("request_0")
                                 .get("/municipal/2024/")
@@ -306,7 +306,7 @@ public class CombinedSimulation extends Simulation {
 //
 //        String uri4 = "https://mc.yandex.ru";
 
-        ScenarioBuilder scnRCM3 = scenario("RandomCandidateMarsel")
+        ScenarioBuilder scnRCM3 = scenario("Projects.voteGD.com.RandomCandidateMarsel")
                 .exec(
                         http("request_0")
                                 .get("/people/7766-busarov-marsel/")
@@ -399,7 +399,7 @@ public class CombinedSimulation extends Simulation {
 //
 //        String uri4 = "https://mc.yandex.ru";
 
-        ScenarioBuilder scnMgdAC4 = scenario("MgdAllCandidates")
+        ScenarioBuilder scnMgdAC4 = scenario("Projects.voteGD.com.MgdAllCandidates")
                 .exec(
                         http("request_0")
                                 .get("/mgd/2024/candidate/")
@@ -548,7 +548,7 @@ public class CombinedSimulation extends Simulation {
 //
 //        String uri7 = "https://mc.yandex.ru";
 
-        ScenarioBuilder scnMgdIU5 = scenario("MgdIzbiratUchastki")
+        ScenarioBuilder scnMgdIU5 = scenario("Projects.voteGD.com.MgdIzbiratUchastki")
                 .exec(
                         http("request_0")
                                 .get("/mgd/2024/izbiratelnye-uchastki/")
@@ -856,7 +856,7 @@ public class CombinedSimulation extends Simulation {
 //
 //        String uri4 = "https://mc.yandex.ru";
 
-        ScenarioBuilder scnNA6 = scenario("NewsAll")
+        ScenarioBuilder scnNA6 = scenario("Projects.voteGD.com.NewsAll")
                 .exec(
                         http("request_0")
                                 .get("/news/all/")
@@ -963,7 +963,7 @@ public class CombinedSimulation extends Simulation {
 //
 //        String uri4 = "https://mc.yandex.ru";
 
-        ScenarioBuilder scnRN1142_7 = scenario("RandomNews1142")
+        ScenarioBuilder scnRN1142_7 = scenario("Projects.voteGD.com.RandomNews1142")
                 .exec(
                         http("request_0")
                                 .get("/news/1142-reyting-samyh-bogatyh-kandidatov-v-mosgordumu-po-itogam-izucheniya-deklaraciy/")
@@ -1068,7 +1068,7 @@ public class CombinedSimulation extends Simulation {
 //
 //        String uri4 = "https://mc.yandex.ru";
 
-        ScenarioBuilder scnSWQ8 = scenario("SearchWithQueryAb")
+        ScenarioBuilder scnSWQ8 = scenario("Projects.voteGD.com.SearchWithQueryAb")
                 .exec(
                         http("request_0")
                                 .get("/people/search/?query=%D0%90%D0%B1")
@@ -1210,7 +1210,7 @@ public class CombinedSimulation extends Simulation {
 ////
 ////        String uri4 = "https://mc.yandex.ru";
 //
-//        ScenarioBuilder scnMessage9 = scenario("Message")
+//        ScenarioBuilder scnMessage9 = scenario("Projects.voteGD.com.Message")
 //                .exec(
 //                        http("request_0")
 //                                .get("/message/")
@@ -1410,7 +1410,7 @@ public class CombinedSimulation extends Simulation {
 //
 //        String uri5 = "https://www.google-analytics.com/g/collect";
 
-        ScenarioBuilder scnTY10 = scenario("ThankYou")
+        ScenarioBuilder scnTY10 = scenario("Projects.voteGD.com.ThankYou")
                 .exec(
                         http("request_0")
                                 .post("/watch/78422502/1?page-url=form%3A%2F%2Fvotegd.com%2F%3Fi%3Dw0%26p%3DFAAA%25C2%2584A&page-ref=https%3A%2F%2Fvotegd.com%2Fmessage%2F&charset=utf-8&uah=chu%0A%22Not)A%3BBrand%22%3Bv%3D%2299%22%2C%22Google%20Chrome%22%3Bv%3D%22127%22%2C%22Chromium%22%3Bv%3D%22127%22%0Acha%0Ax86%0Achb%0A64%0Achf%0A127.0.6533.119%0Achl%0A%22Not)A%3BBrand%22%3Bv%3D%2299.0.0.0%22%2C%22Google%20Chrome%22%3Bv%3D%22127.0.6533.119%22%2C%22Chromium%22%3Bv%3D%22127.0.6533.119%22%0Achm%0A%3F0%0Achp%0ALinux%0Achv%0A6.5.0&hittoken=1723969246_dd2d6f10911ae954873356593e6d8256d1fe1ee8b76e2653a726e6d8ad95255b&browser-info=ar%3A1%3Avf%3Acstsejpczyib8nf716ce02r1en%3Afu%3A3%3Aen%3Autf-8%3Ala%3Aru-RU%3Av%3A1410%3Acn%3A1%3Adp%3A1%3Als%3A1611288404515%3Ahid%3A533944847%3Az%3A300%3Ai%3A20240818132106%3Aet%3A1723969266%3Ac%3A1%3Arn%3A224116031%3Arqn%3A72%3Au%3A1723808625578809752%3Aw%3A1905x927%3As%3A1920x1080x24%3Ask%3A1%3Awv%3A2%3Aco%3A0%3Acpf%3A1%3Antf%3A1%3Aeu%3A0%3Ans%3A1723969246190%3Agi%3AR0ExLjEuMzM0MzkwMzc0LjE3MjM4MDg2MjU%3D%3Aadb%3A2%3App%3A3629563401%3Arqnl%3A1%3Ast%3A1723969266%3At%3A%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%D0%BC%20%7C%20Vote%D0%93%D0%94&t=gdpr(14)clc(5-776-710)rqnt(3)aw(1)rcm(1)cdl(na)eco(21037568)dss(2)ti(0)&force-urlencoded=1&site-info=%7B%22__ym%22%3A%7B%22ite%22%3A1%7D%7D")
@@ -1519,7 +1519,7 @@ public class CombinedSimulation extends Simulation {
 //
 //        String Buri2 = "https://www.google-analytics.com/g/collect";
 
-        ScenarioBuilder scnSub11 = scenario("Subscribe")
+        ScenarioBuilder scnSub11 = scenario("Projects.voteGD.com.Subscribe")
                 .exec(
                         http("request_0")
                                 .post("/watch/78422502/1?page-url=https%3A%2F%2Fvotegd.com%2F&charset=utf-8&uah=chu%0A%22Not)A%3BBrand%22%3Bv%3D%2299%22%2C%22Google%20Chrome%22%3Bv%3D%22127%22%2C%22Chromium%22%3Bv%3D%22127%22%0Acha%0Ax86%0Achb%0A64%0Achf%0A127.0.6533.119%0Achl%0A%22Not)A%3BBrand%22%3Bv%3D%2299.0.0.0%22%2C%22Google%20Chrome%22%3Bv%3D%22127.0.6533.119%22%2C%22Chromium%22%3Bv%3D%22127.0.6533.119%22%0Achm%0A%3F0%0Achp%0ALinux%0Achv%0A6.5.0&hittoken=1723899123_58e78d7ca2be2a8694c7f5f17ba5b5dd5e39da98389dbfc435f03b6c3898ab5b&browser-info=pa%3A1%3Aar%3A1%3Avf%3Acstsejpczyib8nf716ce02r1en%3Afu%3A1%3Aen%3Autf-8%3Ala%3Aru-RU%3Av%3A1410%3Acn%3A1%3Adp%3A1%3Als%3A1611288404515%3Ahid%3A283034204%3Az%3A300%3Ai%3A20240817175244%3Aet%3A1723899165%3Ac%3A1%3Arn%3A826626279%3Arqn%3A49%3Au%3A1723808625578809752%3Aw%3A1905x927%3As%3A1920x1080x24%3Ask%3A1%3Awv%3A2%3Aco%3A0%3Acpf%3A1%3Antf%3A1%3Aeu%3A0%3Ans%3A1723899123048%3Agi%3AR0ExLjEuMzM0MzkwMzc0LjE3MjM4MDg2MjU%3D%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1723899165&t=gdpr(14)mc(p-1)clc(4-884-553)rqnt(3)aw(1)rcm(1)cdl(na)eco(21037568)dss(2)ti(0)&force-urlencoded=1&site-info=%7B%22__ym%22%3A%7B%22fi%22%3A%22a(1)b(PAFAAA%C2%843A)c(YWudgAH%2FOUrcSBPjw2F2eD8Xslr7WdkXhwYmUEzch1s%3D)%22%2C%22ite%22%3A1%7D%7D")
