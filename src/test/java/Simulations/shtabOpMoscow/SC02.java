@@ -1,4 +1,4 @@
-package Simulations;
+package Simulations.shtabOpMoscow;
 
 import io.gatling.javaapi.core.ScenarioBuilder;
 import io.gatling.javaapi.core.Simulation;

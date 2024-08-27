@@ -1,4 +1,4 @@
-package Simulations;
+package Simulations.votegd;
 
 import io.gatling.javaapi.core.ScenarioBuilder;
 import io.gatling.javaapi.core.Simulation;

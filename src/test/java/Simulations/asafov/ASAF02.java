@@ -1,4 +1,4 @@
-package Simulations;
+package Simulations.asafov;
 
 import io.gatling.javaapi.core.ScenarioBuilder;
 import io.gatling.javaapi.core.Simulation;
