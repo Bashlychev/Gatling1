@@ -96,7 +96,7 @@ int users_flood_AS10 = Integer.getInteger("users_flood_AS10", 1);
 
         String uri2 = "https://asafov.ru";
 
-        ScenarioBuilder scnAS03 = scenario("Projects.asafov.News1")
+        ScenarioBuilder scnAS03 = scenario("Projects.asafov.Pile.News1")
                 .exec(
                         http("request_0")
                                 .post("/webvisor/64870417?wv-part=4&wv-type=7&wmode=0&wv-hit=125569288&page-url=https%3A%2F%2Fasafov.ru%2Fnews%2Fv-zabajkalskom-krae-startovalo-dosrochnoe-golosovanie&rn=1047143549&browser-info=we%3A1%3Aet%3A1724685860%3Aw%3A1905x927%3Av%3A1420%3Az%3A300%3Ai%3A20240826202419%3Au%3A1724676906572442126%3Avf%3Acstsejpczyib8nf716ce02r1en%3Ast%3A1724685860&t=gdpr(14)ti(1)")
@@ -281,7 +281,7 @@ int users_flood_AS10 = Integer.getInteger("users_flood_AS10", 1);
 
         String uri2asaf = "https://asafov.ru";
 
-        ScenarioBuilder scnAS04 = scenario("Projects.asafov.News2")
+        ScenarioBuilder scnAS04 = scenario("Projects.asafov.Pile.News2")
                 .exec(
                         http("request_0")
                                 .post("/webvisor/64870417?wv-part=2&wv-type=7&wmode=0&wv-hit=591456969&page-url=https%3A%2F%2Fasafov.ru%2Fnews%2Fbolee-20-regionov-rossii-podali-zayavki-na-uchastie-v-deg-v-edg-2023&rn=750970568&browser-info=bt%3A1%3Awe%3A1%3Aet%3A1724685940%3Aw%3A1905x927%3Av%3A1420%3Az%3A300%3Ai%3A20240826202540%3Au%3A1724676906572442126%3Avf%3Acstsejpczyib8nf716ce02r1en%3Ast%3A1724685940&t=gdpr(14)ti(1)")
@@ -470,7 +470,7 @@ int users_flood_AS10 = Integer.getInteger("users_flood_AS10", 1);
 
         String uri2as = "https://asafov.ru";
 
-        ScenarioBuilder scnAS05 = scenario("Projects.asafov.News3")
+        ScenarioBuilder scnAS05 = scenario("Projects.asafov.Pile.News3")
                 .exec(
                         http("request_0")
                                 .post("/webvisor/64870417?wv-part=2&wv-type=7&wmode=0&wv-hit=516033656&page-url=https%3A%2F%2Fasafov.ru%2Fnews%2Faleksandr-asafov-nablyudaetsya-kaskad-otkazov-so-storony-dazhe-novoj-parlamentskoj-oppoziczii&rn=1058746416&browser-info=we%3A1%3Aet%3A1724685971%3Aw%3A1905x927%3Av%3A1420%3Az%3A300%3Ai%3A20240826202611%3Au%3A1724676906572442126%3Avf%3Acstsejpczyib8nf716ce02r1en%3Ast%3A1724685971&t=gdpr(14)ti(1)")

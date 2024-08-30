@@ -97,7 +97,7 @@ headersUC01_57.put("user-agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53
 
 String UC01_uri2 = "https://shtab.opmoscow.ru";
 
-ScenarioBuilder scnUC01 = scenario("Projects.asafov.Projects.voteGD.com.MainPage")
+ScenarioBuilder scnUC01 = scenario("Projects.asafov.Projects.voteGD.com.Pile.MainPage")
 .exec(
 http("request_0")
 .post("/webvisor/89667203?wv-part=8&wv-type=7&wmode=0&wv-hit=509986764&page-url=https%3A%2F%2Fshtab.opmoscow.ru%2F&rn=34938740&browser-info=we%3A1%3Aet%3A1724416880%3Aw%3A1905x927%3Av%3A1410%3Az%3A300%3Ai%3A20240823174119%3Au%3A1724415537121602245%3Avf%3Acstsejpczyib8nf716ce02r1en%3Ast%3A1724416880&t=gdpr(14)ti(1)")

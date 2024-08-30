@@ -10,7 +10,7 @@ https://docs.google.com/spreadsheets/d/1b8s94ykkSVd8bBk3KxTt3PiXr6kHNHL_XUxW1oxw
 
 4 сценария:
 **SC01 - Базовая проходка по страницам**
-* Projects.asafov.Projects.voteGD.com.MainPage	            UC01	1
+* Projects.asafov.Projects.voteGD.com.Pile.MainPage	            UC01	1
 * DistanceVoting	    UC02	2
 * IzbiratUchastki	    UC03	3
 * Nabludateli	        UC04	4
@@ -22,11 +22,11 @@ https://docs.google.com/spreadsheets/d/1b8s94ykkSVd8bBk3KxTt3PiXr6kHNHL_XUxW1oxw
 * Vybory	            UC10	10
 
 **SC02 - Проходка по новостям**
-* Projects.asafov.News1	     UC20	1
-* Projects.asafov.News2	     UC21	2
-* Projects.asafov.News3	     UC22	3
-* News4	     UC23	4
-* News5	     UC24	5
+* Projects.asafov.Pile.News1	     UC20	1
+* Projects.asafov.Pile.News2	     UC21	2
+* Projects.asafov.Pile.News3	     UC22	3
+* Pile.News4	     UC23	4
+* Pile.News5	     UC24	5
 * News20231	 UC26	6
 * News20232	 UC27	7
 * News20233	 UC28	8
@@ -65,9 +65,9 @@ https://docs.google.com/spreadsheets/d/1b8s94ykkSVd8bBk3KxTt3PiXr6kHNHL_XUxW1oxw
 https://docs.google.com/spreadsheets/d/1iBePx6n0oAxccboDuHXw-FT3TFB_5IEXuJ8ZZV4Yf5E/edit?usp=sharing - url's list + сценарии
 
 **ASAF01 News**		
-* News1	AS03	1
-* News2	AS04	2
-* News3	AS05	3
+* Pile.News1	AS03	1
+* Pile.News2	AS04	2
+* Pile.News3	AS05	3
 * NewsAuth1	AS06	4
 * NewsAuth2	AS07	5
 * NewsAuth3	AS08	6 
@@ -84,3 +84,20 @@ https://docs.google.com/spreadsheets/d/1iBePx6n0oAxccboDuHXw-FT3TFB_5IEXuJ8ZZV4Y
 * ProDEG	AS19	6
 * Gosduma	AS20	7
 * Search	AS23	8
+
+
+4.https://docs.google.com/spreadsheets/d/1nljPm0q3-7mmEOyAj1xA49ARbwmYzbW4r-LifFs_kO4/edit?usp=sharing - urls list + сценарии
+* Главная страница	    MainPage	PM01
+* Дист голосование	DistGol	PM02
+* Выборы в Думу 2024	VyboryDuma	PM03
+* Избирательные участки	IzbUch	PM04
+* Кандидаты	Candidates	PM05
+* Муниц.Кандидаты	CandidatesMun.har	PM06
+* Фото Штаба1	ShtabPhoto1	PM07
+* News1	News1	PM08
+* News2	News2	PM09
+* News3	News3	PM10
+* News4	News4	PM11
+* News5	News5	PM12
+* Видеоновости	Videonew	PM13
+* SearchPanda	SearchPanda	PM14

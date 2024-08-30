@@ -109,7 +109,7 @@ public class CombinedSimulation extends Simulation {
 //
 //        String uri4 = "https://mc.yandex.ru";
 
-        ScenarioBuilder scnMP1 = scenario("opmoscow.Y2024.Projects.asafov.Projects.voteGD.com.MainPage")
+        ScenarioBuilder scnMP1 = scenario("opmoscow.Y2024.Projects.asafov.Projects.voteGD.com.Pile.MainPage")
                 .exec(
                         http("request_0")
                                 .get("/")
