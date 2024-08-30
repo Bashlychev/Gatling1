@@ -1,5 +1,6 @@
 package Simulations.politmoscow;
 
+import io.gatling.javaapi.core.FeederBuilder;
 import io.gatling.javaapi.core.ScenarioBuilder;
 import io.gatling.javaapi.core.Simulation;
 import io.gatling.javaapi.http.HttpProtocolBuilder;
@@ -7,9 +8,9 @@ import io.gatling.javaapi.http.HttpProtocolBuilder;
 import java.util.HashMap;
 import java.util.Map;
 
-import static io.gatling.javaapi.core.CoreDsl.constantConcurrentUsers;
-import static io.gatling.javaapi.core.CoreDsl.scenario;
+import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.http;
+import static io.gatling.javaapi.http.HttpDsl.status;
 
 public class PM1 extends Simulation {
         {
@@ -3410,7 +3411,11 @@ public class PM1 extends Simulation {
 
                 HttpProtocolBuilder httpProtocol_SearchPanda = http
                         .baseUrl("https://polit-moscow.ru")
-                        .inferHtmlResources()
+                        .acceptHeader("text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7")
+                        .acceptEncodingHeader("gzip, deflate, br, zstd")
+                        .acceptLanguageHeader("ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7")
+                        .inferHtmlResources();
+                FeederBuilder<String> searchFeeder = csv("search.csv").circular()
                         ;
 
                 Map<CharSequence, String> headersPM14_0 = new HashMap<>();
@@ -3457,10 +3462,12 @@ public class PM1 extends Simulation {
 
 
                 ScenarioBuilder scnPM14 = scenario("Pile.SearchPanda")
+                        .feed(searchFeeder)
                         .exec(
                                 http("request_0")
-                                        .get("/?s=%D0%9F%D0%B0%D0%BD%D0%B4%D0%B0+")
+                                        .get("/?s=#{searchQuery}")
                                         .headers(headersPM14_0)
+                                        .check(status().is(200))
                                         .resources(
                                                 http("request_1")
                                                         .get(uri1Ya + "/metrika/tag.js")
