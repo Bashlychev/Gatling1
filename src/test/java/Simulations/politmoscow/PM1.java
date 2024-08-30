@@ -3467,7 +3467,7 @@ public class PM1 extends Simulation {
                                 http("request_0")
                                         .get("/?s=#{searchQuery}")
                                         .headers(headersPM14_0)
-                                        .check(status().is(200))
+                                        .check(status().is(200))  // Поставил 200, указать нужный.
                                         .resources(
                                                 http("request_1")
                                                         .get(uri1Ya + "/metrika/tag.js")
