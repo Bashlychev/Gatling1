@@ -3500,59 +3500,73 @@ public class PM2 extends Simulation {
 
                 setUp(
                         scnPM01.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_MainPage)
                         ,
                         scnPM02.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_DistGol)
                         ,
                         scnPM03.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_VyboryDuma)
                         ,
                         scnPM04.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_IzbUch)
                         ,
                         scnPM05.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_Candidates)
                         ,
                         scnPM06.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_CandidatesMun)
                         ,
                         scnPM07.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_ShtabPhoto1)
                         ,
                         scnPM08.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_News1)
                         ,
                         scnPM09.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_News2)
                         ,
                         scnPM10.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_News3)
                         ,
                         scnPM11.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_News4)
                         ,
                         scnPM12.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_News5)
                         ,
                         scnPM13.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_Videonew)
                         ,
                         scnPM14.injectOpen(
-                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25))
+                                rampUsersPerSec(1).to(50).during(Duration.ofMinutes(25)),
+                                constantUsersPerSec(50).during(Duration.ofHours(1))
                         ).protocols(httpProtocol_SearchPanda)
                 );
 
